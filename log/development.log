@@ -1,0 +1,1624 @@
+  [1m[35m (107.4ms)[0m  [1m[35mCREATE DATABASE "seccamp_development" ENCODING = 'unicode'[0m
+  ↳ /mnt/c/Ruby24-x64/bin/rake:23
+  [1m[35m (6.7ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ /mnt/c/Ruby24-x64/bin/rake:23
+  [1m[35m (4.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ /mnt/c/Ruby24-x64/bin/rake:23
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_try_advisory_lock(5994438243200751750)[0m
+  ↳ /mnt/c/Ruby24-x64/bin/rake:23
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /mnt/c/Ruby24-x64/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.8ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /mnt/c/Ruby24-x64/bin/rake:23
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ /mnt/c/Ruby24-x64/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Create (0.7ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-11-21 07:49:22.633598"], ["updated_at", "2020-11-21 07:49:22.633598"]]
+  ↳ /mnt/c/Ruby24-x64/bin/rake:23
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /mnt/c/Ruby24-x64/bin/rake:23
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT pg_advisory_unlock(5994438243200751750)[0m
+  ↳ /mnt/c/Ruby24-x64/bin/rake:23
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /mnt/c/Ruby24-x64/bin/rake:23
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /mnt/c/Ruby24-x64/bin/rake:23
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /mnt/c/Ruby24-x64/bin/rake:23
+  [1m[35m (17.4ms)[0m  [1m[35mDROP DATABASE IF EXISTS "seccamp_development"[0m
+  ↳ /mnt/c/Ruby24-x64/bin/rake:23
+  [1m[35m (75.6ms)[0m  [1m[35mCREATE DATABASE "seccamp_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+  [1m[35m (6.8ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ /mnt/c/Ruby24-x64/bin/rake:23
+  [1m[35m (4.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ /mnt/c/Ruby24-x64/bin/rake:23
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_try_advisory_lock(5994438243200751750)[0m
+  ↳ /mnt/c/Ruby24-x64/bin/rake:23
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /mnt/c/Ruby24-x64/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /mnt/c/Ruby24-x64/bin/rake:23
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ /mnt/c/Ruby24-x64/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Create (0.7ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-11-21 07:50:31.062447"], ["updated_at", "2020-11-21 07:50:31.062447"]]
+  ↳ /mnt/c/Ruby24-x64/bin/rake:23
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /mnt/c/Ruby24-x64/bin/rake:23
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(5994438243200751750)[0m
+  ↳ /mnt/c/Ruby24-x64/bin/rake:23
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /mnt/c/Ruby24-x64/bin/rake:23
+Started GET "/" for 127.0.0.1 at 2020-11-21 16:52:13 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/nasudeng/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/nasudeng/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb (19.4ms)
+Completed 200 OK in 72ms (Views: 67.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-11-21 16:54:30 +0900
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 28ms (Views: 25.4ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE DATABASE "seccamp_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_try_advisory_lock(5994438243200751750)[0m
+  ↳ bin/rails:9
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateUsers (20201121075449)
+  [1m[35m (1.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (6.3ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "name" character varying, "email" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20201121075449_create_users.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20201121075449"]]
+  ↳ bin/rails:9
+  [1m[35m (1.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (1.0ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (1.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT pg_advisory_unlock(5994438243200751750)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Started GET "/" for 127.0.0.1 at 2020-11-21 16:57:28 +0900
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/nasudeng/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 18ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-11-21 16:57:31 +0900
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:15
+  Rendered users/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 2960ms (Views: 2866.4ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2020-11-21 16:57:40 +0900
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (198.2ms)
+  Rendered users/new.html.erb within layouts/application (242.1ms)
+Completed 200 OK in 621ms (Views: 570.3ms | ActiveRecord: 2.6ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2020-11-21 16:58:05 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sgPzgp+7uj+UTpugZJTY5AUrDukMsXP9FIxsZV0wq8Z1mbT4ok0UfVYtRrEoy9+ORIWd2GRK/bQ6v048yHdK4Q==", "user"=>{"name"=>"te_11211700", "email"=>"te_111211700@nas"}, "commit"=>"Create User"}
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:30
+  [1m[36mUser Create (1.0ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "te_11211700"], ["email", "te_111211700@nas"], ["created_at", "2020-11-21 07:58:05.399612"], ["updated_at", "2020-11-21 07:58:05.399612"]]
+  ↳ app/controllers/users_controller.rb:30
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:30
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 7ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2020-11-21 16:58:05 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:67
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 393ms (Views: 337.8ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-11-21 16:58:09 +0900
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:15
+  Rendered users/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 351ms (Views: 307.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2020-11-21 16:58:11 +0900
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.2ms)
+  Rendered users/new.html.erb within layouts/application (43.6ms)
+Completed 200 OK in 429ms (Views: 382.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2020-11-21 16:58:24 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Glddzq1Akwrm1gA9J60yiGqnoJLGtamNxa3YPJzH8ujdzRq0kLY9SCS13Sxr8jXiKwkzo65OJ8TrnvplCYATzw==", "user"=>{"name"=>"te_11211705", "email"=>"te_11211705@nas"}, "commit"=>"Create User"}
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:30
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "te_11211705"], ["email", "te_11211705@nas"], ["created_at", "2020-11-21 07:58:24.249533"], ["updated_at", "2020-11-21 07:58:24.249533"]]
+  ↳ app/controllers/users_controller.rb:30
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:30
+Redirected to http://localhost:3000/users/2
+Completed 302 Found in 5ms (ActiveRecord: 2.3ms)
+
+
+Started GET "/users/2" for 127.0.0.1 at 2020-11-21 16:58:24 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:67
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 378ms (Views: 330.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-11-21 16:58:25 +0900
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:15
+  Rendered users/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 366ms (Views: 318.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-11-21 17:54:12 +0900
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (1.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:15
+  Rendered users/index.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 418ms (Views: 362.4ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-11-21 20:50:50 +0900
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (2.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:15
+  Rendered users/index.html.erb within layouts/application (25.5ms)
+Completed 200 OK in 495ms (Views: 428.0ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-11-21 20:51:37 +0900
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:15
+  Rendered users/index.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 455ms (Views: 401.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2020-11-21 20:51:40 +0900
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (12.1ms)
+  Rendered users/new.html.erb within layouts/application (61.6ms)
+Completed 200 OK in 450ms (Views: 404.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2020-11-21 20:51:58 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xMdbn77PZtnkaKiouyAtvoiuNwCnb0Sx5ed1mpGrAXUDXRzlgznImyYLdbn3fyrUyQCkMc+UyvjL1FfDBOzgUg==", "user"=>{"name"=>"te_11212055", "email"=>"te_11212055@nas"}, "commit"=>"Create User"}
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:30
+  [1m[36mUser Create (2.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "te_11212055"], ["email", "te_11212055@nas"], ["created_at", "2020-11-21 11:51:58.515693"], ["updated_at", "2020-11-21 11:51:58.515693"]]
+  ↳ app/controllers/users_controller.rb:30
+  [1m[35m (1.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:30
+Redirected to http://localhost:3000/users/3
+Completed 302 Found in 18ms (ActiveRecord: 5.1ms)
+
+
+Started GET "/users/3" for 127.0.0.1 at 2020-11-21 20:51:58 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:67
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 553ms (Views: 504.9ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-11-21 20:52:03 +0900
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:15
+  Rendered users/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 390ms (Views: 346.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-11-21 21:10:15 +0900
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:15
+  Rendered users/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 380ms (Views: 333.2ms | ActiveRecord: 0.9ms)
+
+
+DEPRECATION WARNING: Using a different value for the raw option when reading and writing to a cache key is deprecated for :redis_cache_store and Rails 6.0 will stop automatically detecting the format when reading to avoid marshal loading untrusted raw strings. (called from irb_binding at (irb):2)
+DEPRECATION WARNING: Using a different value for the raw option when reading and writing to a cache key is deprecated for :redis_cache_store and Rails 6.0 will stop automatically detecting the format when reading to avoid marshal loading untrusted raw strings. (called from irb_binding at (irb):13)
+DEPRECATION WARNING: Using a different value for the raw option when reading and writing to a cache key is deprecated for :redis_cache_store and Rails 6.0 will stop automatically detecting the format when reading to avoid marshal loading untrusted raw strings. (called from irb_binding at (irb):4)
+Started GET "/microposts/1" for 127.0.0.1 at 2020-11-21 21:28:39 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/microposts/1"):
+  
+actionpack (5.2.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/microposts/1" for 127.0.0.1 at 2020-11-21 21:28:44 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/microposts/1"):
+  
+actionpack (5.2.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/microposts/" for 127.0.0.1 at 2020-11-21 21:28:47 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/microposts"):
+  
+actionpack (5.2.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT pg_try_advisory_lock(5994438243200751750)[0m
+  ↳ bin/rails:9
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateMicroposts (20201121122908)
+  [1m[35m (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (13.5ms)[0m  [1m[35mCREATE TABLE "microposts" ("id" bigserial primary key, "content" text, "user_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20201121122908_create_microposts.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20201121122908"]]
+  ↳ bin/rails:9
+  [1m[35m (1.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.9ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT pg_advisory_unlock(5994438243200751750)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Started GET "/microposts" for 127.0.0.1 at 2020-11-21 21:29:35 +0900
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/nasudeng/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (1.1ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 2081ms (Views: 2003.2ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/microposts/new" for 127.0.0.1 at 2020-11-21 21:29:51 +0900
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  Rendered microposts/_form.html.erb (71.1ms)
+  Rendered microposts/new.html.erb within layouts/application (117.5ms)
+Completed 200 OK in 523ms (Views: 471.7ms | ActiveRecord: 3.1ms)
+
+
+Started POST "/microposts" for 127.0.0.1 at 2020-11-21 21:30:16 +0900
+Processing by MicropostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KdtdOYGpnZcaBxXTB0cOi33GSZlaEm3oWPtc+af3dK/exV0mvmZHUmljcl787Sz8uJp+oILOiyJOgsP+58CEqw==", "micropost"=>{"content"=>"te_mp_2011212130", "user_id"=>"1"}, "commit"=>"Create Micropost"}
+  [1m[35m (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/microposts_controller.rb:30
+  [1m[36mMicropost Create (1.3ms)[0m  [1m[32mINSERT INTO "microposts" ("content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "te_mp_2011212130"], ["user_id", 1], ["created_at", "2020-11-21 12:30:16.118340"], ["updated_at", "2020-11-21 12:30:16.118340"]]
+  ↳ app/controllers/microposts_controller.rb:30
+  [1m[35m (3.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/microposts_controller.rb:30
+Redirected to http://localhost:3000/microposts/1
+Completed 302 Found in 10ms (ActiveRecord: 5.7ms)
+
+
+Started GET "/microposts/1" for 127.0.0.1 at 2020-11-21 21:30:16 +0900
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.6ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:67
+  Rendering microposts/show.html.erb within layouts/application
+  Rendered microposts/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 401ms (Views: 348.4ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2020-11-21 21:30:18 +0900
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.8ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 414ms (Views: 370.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/microposts/1" for 127.0.0.1 at 2020-11-21 21:30:21 +0900
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.8ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:67
+  Rendering microposts/show.html.erb within layouts/application
+  Rendered microposts/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 401ms (Views: 355.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2020-11-21 21:30:23 +0900
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.9ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 388ms (Views: 344.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/microposts/1" for 127.0.0.1 at 2020-11-21 21:31:41 +0900
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.7ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:67
+  Rendering microposts/show.html.erb within layouts/application
+  Rendered microposts/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 394ms (Views: 350.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2020-11-21 21:31:43 +0900
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.8ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 391ms (Views: 347.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/microposts/new" for 127.0.0.1 at 2020-11-21 21:31:45 +0900
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  Rendered microposts/_form.html.erb (1.3ms)
+  Rendered microposts/new.html.erb within layouts/application (44.7ms)
+Completed 200 OK in 433ms (Views: 389.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/microposts" for 127.0.0.1 at 2020-11-21 21:31:57 +0900
+Processing by MicropostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"q5PPSiDL92ETEWOO2qJvGVgC6SXWB1WmvbhiAEBcoGZcjc9VHwQtpGB1BAMhCE1unV7eHA7bs2yrwf0HAGtQYg==", "micropost"=>{"content"=>"te_mp_2011212132", "user_id"=>"2"}, "commit"=>"Create Micropost"}
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/microposts_controller.rb:30
+  [1m[36mMicropost Create (0.7ms)[0m  [1m[32mINSERT INTO "microposts" ("content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "te_mp_2011212132"], ["user_id", 2], ["created_at", "2020-11-21 12:31:57.709974"], ["updated_at", "2020-11-21 12:31:57.709974"]]
+  ↳ app/controllers/microposts_controller.rb:30
+  [1m[35m (5.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/microposts_controller.rb:30
+Redirected to http://localhost:3000/microposts/2
+Completed 302 Found in 10ms (ActiveRecord: 6.6ms)
+
+
+Started GET "/microposts/2" for 127.0.0.1 at 2020-11-21 21:31:57 +0900
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMicropost Load (0.7ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:67
+  Rendering microposts/show.html.erb within layouts/application
+  Rendered microposts/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 403ms (Views: 357.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2020-11-21 21:31:59 +0900
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.9ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 404ms (Views: 361.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/microposts/1" for 127.0.0.1 at 2020-11-22 01:12:06 +0900
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (3.6ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:67
+  Rendering microposts/show.html.erb within layouts/application
+  Rendered microposts/show.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 552ms (Views: 467.1ms | ActiveRecord: 6.2ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2020-11-22 01:12:48 +0900
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (1.2ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 434ms (Views: 385.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/microposts/1" for 127.0.0.1 at 2020-11-22 01:12:49 +0900
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.9ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:67
+  Rendering microposts/show.html.erb within layouts/application
+  Rendered microposts/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 415ms (Views: 369.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2020-11-22 01:14:20 +0900
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (1.4ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 469ms (Views: 417.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/microposts/1" for 127.0.0.1 at 2020-11-22 01:14:21 +0900
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.8ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:67
+  Rendering microposts/show.html.erb within layouts/application
+  Rendered microposts/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 555ms (Views: 507.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2020-11-22 01:14:32 +0900
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.9ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 405ms (Views: 359.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/microposts/1" for 127.0.0.1 at 2020-11-22 01:14:34 +0900
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.9ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:67
+  Rendering microposts/show.html.erb within layouts/application
+  Rendered microposts/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 402ms (Views: 356.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2020-11-22 01:15:23 +0900
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (1.1ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 408ms (Views: 364.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/microposts/1" for 127.0.0.1 at 2020-11-22 01:15:24 +0900
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.7ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:67
+  Rendering microposts/show.html.erb within layouts/application
+  Rendered microposts/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 404ms (Views: 359.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2020-11-22 01:17:27 +0900
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (1.2ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 403ms (Views: 358.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/microposts/2" for 127.0.0.1 at 2020-11-22 01:17:29 +0900
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMicropost Load (1.0ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:67
+  Rendering microposts/show.html.erb within layouts/application
+  Rendered microposts/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 400ms (Views: 353.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2020-11-22 01:19:41 +0900
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (1.2ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 415ms (Views: 369.6ms | ActiveRecord: 1.2ms)
+
+
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "microposts"[0m
+  [1m[36mMicropost Load (0.9ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMicropost Load (1.0ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMicropost Load (1.1ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Started GET "/microposts/1" for 127.0.0.1 at 2020-11-22 01:33:20 +0900
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.7ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:67
+  Rendering microposts/show.html.erb within layouts/application
+  Rendered microposts/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 413ms (Views: 366.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/microposts/1/edit" for 127.0.0.1 at 2020-11-22 01:33:27 +0900
+Processing by MicropostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.7ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:67
+  Rendering microposts/edit.html.erb within layouts/application
+  Rendered microposts/_form.html.erb (5.1ms)
+  Rendered microposts/edit.html.erb within layouts/application (49.3ms)
+Completed 200 OK in 455ms (Views: 408.1ms | ActiveRecord: 0.7ms)
+
+
+Started PATCH "/microposts/1" for 127.0.0.1 at 2020-11-22 01:33:32 +0900
+Processing by MicropostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NGkG8F2KDobxLjsSq1qYa1GoXfCIO+gE814iOXB4UvYeUsl2eKahap3jawWaIoBOTccjJ2K4MyuhVJPAipIIGg==", "micropost"=>{"content"=>"te_mp_2011212130_ca", "user_id"=>"1"}, "commit"=>"Update Micropost", "id"=>"1"}
+  [1m[36mMicropost Load (0.8ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:67
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/microposts_controller.rb:44
+  [1m[36mMicropost Update (1.8ms)[0m  [1m[33mUPDATE "microposts" SET "content" = $1, "updated_at" = $2 WHERE "microposts"."id" = $3[0m  [["content", "te_mp_2011212130_ca"], ["updated_at", "2020-11-21 16:33:32.740171"], ["id", 1]]
+  ↳ app/controllers/microposts_controller.rb:44
+  [1m[35m (6.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/microposts_controller.rb:44
+Redirected to http://localhost:3000/microposts/1
+Completed 302 Found in 19ms (ActiveRecord: 10.2ms)
+
+
+Started GET "/microposts/1" for 127.0.0.1 at 2020-11-22 01:33:32 +0900
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.9ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:67
+  Rendering microposts/show.html.erb within layouts/application
+  Rendered microposts/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 419ms (Views: 370.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2020-11-22 01:33:38 +0900
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.8ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 394ms (Views: 350.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/microposts/2/edit" for 127.0.0.1 at 2020-11-22 01:34:06 +0900
+Processing by MicropostsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMicropost Load (0.8ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:67
+  Rendering microposts/edit.html.erb within layouts/application
+  Rendered microposts/_form.html.erb (1.7ms)
+  Rendered microposts/edit.html.erb within layouts/application (48.2ms)
+Completed 200 OK in 466ms (Views: 418.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2020-11-22 01:34:09 +0900
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.8ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 407ms (Views: 363.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/microposts/1/edit" for 127.0.0.1 at 2020-11-22 01:34:11 +0900
+Processing by MicropostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.7ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:67
+  Rendering microposts/edit.html.erb within layouts/application
+  Rendered microposts/_form.html.erb (1.4ms)
+  Rendered microposts/edit.html.erb within layouts/application (47.6ms)
+Completed 200 OK in 448ms (Views: 402.5ms | ActiveRecord: 0.7ms)
+
+
+Started PATCH "/microposts/1" for 127.0.0.1 at 2020-11-22 01:34:18 +0900
+Processing by MicropostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5gAsNVwjsW7KJi8rrgEDMqkOypxmLuXiorO0HNd0yfDMO+OzeQ8egqbrfzyfeRsXtWG0S4ytPs3wuQXlLZ6THA==", "micropost"=>{"content"=>"te_mp_2011212130", "user_id"=>"1"}, "commit"=>"Update Micropost", "id"=>"1"}
+  [1m[36mMicropost Load (0.7ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:67
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/microposts_controller.rb:44
+  [1m[36mMicropost Update (1.0ms)[0m  [1m[33mUPDATE "microposts" SET "content" = $1, "updated_at" = $2 WHERE "microposts"."id" = $3[0m  [["content", "te_mp_2011212130"], ["updated_at", "2020-11-21 16:34:18.816069"], ["id", 1]]
+  ↳ app/controllers/microposts_controller.rb:44
+  [1m[35m (4.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/microposts_controller.rb:44
+Redirected to http://localhost:3000/microposts/1
+Completed 302 Found in 11ms (ActiveRecord: 6.6ms)
+
+
+Started GET "/microposts/1" for 127.0.0.1 at 2020-11-22 01:34:18 +0900
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.8ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:67
+  Rendering microposts/show.html.erb within layouts/application
+  Rendered microposts/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 395ms (Views: 350.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2020-11-22 01:35:48 +0900
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.8ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 433ms (Views: 385.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/microposts/1" for 127.0.0.1 at 2020-11-22 01:35:49 +0900
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.8ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:67
+  Rendering microposts/show.html.erb within layouts/application
+  Rendered microposts/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 406ms (Views: 359.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/microposts/1/edit" for 127.0.0.1 at 2020-11-22 01:35:52 +0900
+Processing by MicropostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.7ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:67
+  Rendering microposts/edit.html.erb within layouts/application
+  Rendered microposts/_form.html.erb (1.3ms)
+  Rendered microposts/edit.html.erb within layouts/application (46.3ms)
+Completed 200 OK in 446ms (Views: 400.5ms | ActiveRecord: 0.7ms)
+
+
+Started PATCH "/microposts/1" for 127.0.0.1 at 2020-11-22 01:35:55 +0900
+Processing by MicropostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0IHvOYoUNTIP+Da6LZAQvshdh7+gchBCWXeD9XuuLbn6uiC/rzia3mM1Zq0c6Aib1DL5aErxy20LfTIMgUR3VQ==", "micropost"=>{"content"=>"te_mp_2011212130_ca", "user_id"=>"1"}, "commit"=>"Update Micropost", "id"=>"1"}
+  [1m[36mMicropost Load (0.7ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:67
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/microposts_controller.rb:44
+  [1m[36mMicropost Update (0.7ms)[0m  [1m[33mUPDATE "microposts" SET "content" = $1, "updated_at" = $2 WHERE "microposts"."id" = $3[0m  [["content", "te_mp_2011212130_ca"], ["updated_at", "2020-11-21 16:35:55.865529"], ["id", 1]]
+  ↳ app/controllers/microposts_controller.rb:44
+  [1m[35m (4.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/microposts_controller.rb:44
+Redirected to http://localhost:3000/microposts/1
+Completed 302 Found in 10ms (ActiveRecord: 6.5ms)
+
+
+Started GET "/microposts/1" for 127.0.0.1 at 2020-11-22 01:35:55 +0900
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.7ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:67
+  Rendering microposts/show.html.erb within layouts/application
+  Rendered microposts/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 406ms (Views: 359.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2020-11-22 01:35:59 +0900
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.8ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 413ms (Views: 367.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/microposts/1" for 127.0.0.1 at 2020-11-22 01:36:00 +0900
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.7ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:67
+  Rendering microposts/show.html.erb within layouts/application
+  Rendered microposts/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 399ms (Views: 351.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2020-11-22 01:36:02 +0900
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.8ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 408ms (Views: 360.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2020-11-22 01:36:04 +0900
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.8ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 404ms (Views: 359.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/microposts/1" for 127.0.0.1 at 2020-11-22 01:36:06 +0900
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (1.0ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:67
+  Rendering microposts/show.html.erb within layouts/application
+  Rendered microposts/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 403ms (Views: 356.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2020-11-22 01:38:23 +0900
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.8ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 413ms (Views: 365.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2020-11-22 01:38:24 +0900
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.8ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 430ms (Views: 385.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2020-11-22 01:41:14 +0900
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.8ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 416ms (Views: 370.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/microposts/1" for 127.0.0.1 at 2020-11-22 01:41:16 +0900
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.6ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:67
+  Rendering microposts/show.html.erb within layouts/application
+  Rendered microposts/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 392ms (Views: 349.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/microposts/1/edit" for 127.0.0.1 at 2020-11-22 01:41:20 +0900
+Processing by MicropostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.7ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:67
+  Rendering microposts/edit.html.erb within layouts/application
+  Rendered microposts/_form.html.erb (1.3ms)
+  Rendered microposts/edit.html.erb within layouts/application (45.4ms)
+Completed 200 OK in 442ms (Views: 396.7ms | ActiveRecord: 0.7ms)
+
+
+Started PATCH "/microposts/1" for 127.0.0.1 at 2020-11-22 01:41:25 +0900
+Processing by MicropostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TdKZM1J6Ne2cDNELJcojvyYTsbJKOR74HrJIO5uVaVRn6Va1d1aaAfDBgRwUsjuaOnzPZaC6xddMuPnCYX8zuA==", "micropost"=>{"content"=>"te_mp_2011212130", "user_id"=>"1"}, "commit"=>"Update Micropost", "id"=>"1"}
+  [1m[36mMicropost Load (0.6ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:67
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/microposts_controller.rb:44
+  [1m[36mMicropost Update (0.8ms)[0m  [1m[33mUPDATE "microposts" SET "content" = $1, "updated_at" = $2 WHERE "microposts"."id" = $3[0m  [["content", "te_mp_2011212130"], ["updated_at", "2020-11-21 16:41:25.501886"], ["id", 1]]
+  ↳ app/controllers/microposts_controller.rb:44
+  [1m[35m (5.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/microposts_controller.rb:44
+Redirected to http://localhost:3000/microposts/1
+Completed 302 Found in 12ms (ActiveRecord: 7.7ms)
+
+
+Started GET "/microposts/1" for 127.0.0.1 at 2020-11-22 01:41:25 +0900
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.7ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:67
+  Rendering microposts/show.html.erb within layouts/application
+  Rendered microposts/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 400ms (Views: 354.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2020-11-22 01:41:28 +0900
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.8ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 404ms (Views: 359.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/microposts/1" for 127.0.0.1 at 2020-11-22 01:41:30 +0900
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.8ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:67
+  Rendering microposts/show.html.erb within layouts/application
+  Rendered microposts/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 420ms (Views: 374.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2020-11-22 01:41:46 +0900
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.8ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 404ms (Views: 358.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/microposts/1/edit" for 127.0.0.1 at 2020-11-22 01:41:48 +0900
+Processing by MicropostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.6ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:67
+  Rendering microposts/edit.html.erb within layouts/application
+  Rendered microposts/_form.html.erb (1.3ms)
+  Rendered microposts/edit.html.erb within layouts/application (47.1ms)
+Completed 200 OK in 447ms (Views: 402.3ms | ActiveRecord: 0.6ms)
+
+
+Started PATCH "/microposts/1" for 127.0.0.1 at 2020-11-22 01:41:52 +0900
+Processing by MicropostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xp7YjhcFgVQBKkxzFp4fpCYFh9zPxGk7Xkcz1C/7FQXspRcIMikuuG3nHGQn5geBOmr5CyVHshQMTYIt1RFP6Q==", "micropost"=>{"content"=>"te_mp_2011212130_ca", "user_id"=>"1"}, "commit"=>"Update Micropost", "id"=>"1"}
+  [1m[36mMicropost Load (0.7ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:67
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/microposts_controller.rb:44
+  [1m[36mMicropost Update (0.7ms)[0m  [1m[33mUPDATE "microposts" SET "content" = $1, "updated_at" = $2 WHERE "microposts"."id" = $3[0m  [["content", "te_mp_2011212130_ca"], ["updated_at", "2020-11-21 16:41:52.257703"], ["id", 1]]
+  ↳ app/controllers/microposts_controller.rb:44
+  [1m[35m (4.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/microposts_controller.rb:44
+Redirected to http://localhost:3000/microposts/1
+Completed 302 Found in 10ms (ActiveRecord: 6.6ms)
+
+
+Started GET "/microposts/1" for 127.0.0.1 at 2020-11-22 01:41:52 +0900
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.7ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:67
+  Rendering microposts/show.html.erb within layouts/application
+  Rendered microposts/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 396ms (Views: 351.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2020-11-22 01:41:54 +0900
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.7ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 421ms (Views: 374.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/microposts/1" for 127.0.0.1 at 2020-11-22 01:41:55 +0900
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.8ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:67
+  Rendering microposts/show.html.erb within layouts/application
+  Rendered microposts/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 413ms (Views: 364.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2020-11-22 01:41:56 +0900
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.9ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 399ms (Views: 354.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2020-11-22 01:46:23 +0900
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.8ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 413ms (Views: 367.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/microposts/1/edit" for 127.0.0.1 at 2020-11-22 01:46:24 +0900
+Processing by MicropostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.7ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:67
+  Rendering microposts/edit.html.erb within layouts/application
+  Rendered microposts/_form.html.erb (1.3ms)
+  Rendered microposts/edit.html.erb within layouts/application (45.4ms)
+Completed 200 OK in 449ms (Views: 399.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2020-11-22 01:46:26 +0900
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.8ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 406ms (Views: 361.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/microposts/1" for 127.0.0.1 at 2020-11-22 01:46:27 +0900
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.8ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:67
+  Rendering microposts/show.html.erb within layouts/application
+  Rendered microposts/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 404ms (Views: 355.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2020-11-22 01:46:29 +0900
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.9ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 393ms (Views: 348.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/microposts/1/edit" for 127.0.0.1 at 2020-11-22 01:46:30 +0900
+Processing by MicropostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.7ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:67
+  Rendering microposts/edit.html.erb within layouts/application
+  Rendered microposts/_form.html.erb (1.3ms)
+  Rendered microposts/edit.html.erb within layouts/application (44.8ms)
+Completed 200 OK in 449ms (Views: 402.4ms | ActiveRecord: 0.7ms)
+
+
+Started PATCH "/microposts/1" for 127.0.0.1 at 2020-11-22 01:46:33 +0900
+Processing by MicropostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QPtOMwbtkWcHGJh4fB71OmOXvs1XoVMa0KaoVAH2/PFqwIG1I8E+i2vVyG9NZu0ff/jAGr0iiDWCrBmt+xymHQ==", "micropost"=>{"content"=>"te_mp_2011212130", "user_id"=>"1"}, "commit"=>"Update Micropost", "id"=>"1"}
+  [1m[36mMicropost Load (0.7ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:67
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/microposts_controller.rb:44
+  [1m[36mMicropost Update (0.7ms)[0m  [1m[33mUPDATE "microposts" SET "content" = $1, "updated_at" = $2 WHERE "microposts"."id" = $3[0m  [["content", "te_mp_2011212130"], ["updated_at", "2020-11-21 16:46:33.779998"], ["id", 1]]
+  ↳ app/controllers/microposts_controller.rb:44
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/microposts_controller.rb:44
+Redirected to http://localhost:3000/microposts/1
+Completed 302 Found in 6ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/microposts/1" for 127.0.0.1 at 2020-11-22 01:46:33 +0900
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.6ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:67
+  Rendering microposts/show.html.erb within layouts/application
+  Rendered microposts/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 423ms (Views: 377.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2020-11-22 01:46:35 +0900
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.9ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 396ms (Views: 352.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/microposts/1" for 127.0.0.1 at 2020-11-22 01:46:37 +0900
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.7ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:67
+  Rendering microposts/show.html.erb within layouts/application
+  Rendered microposts/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 396ms (Views: 352.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2020-11-22 01:46:41 +0900
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.9ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 417ms (Views: 372.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-11-22 01:47:16 +0900
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/nasudeng/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 16ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2020-11-22 01:47:21 +0900
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.9ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (17.1ms)
+Completed 200 OK in 1191ms (Views: 1121.7ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/microposts/1/edit" for 127.0.0.1 at 2020-11-22 01:47:25 +0900
+Processing by MicropostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.6ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:73
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 1.2ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1..2)):
+  
+app/controllers/microposts_controller.rb:74:in `set_micropost'
+Started GET "/microposts/1/edit" for 127.0.0.1 at 2020-11-22 01:48:19 +0900
+Processing by MicropostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.9ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:73
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.9ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1..2)):
+  
+app/controllers/microposts_controller.rb:74:in `set_micropost'
+Started GET "/microposts/1/edit" for 127.0.0.1 at 2020-11-22 01:48:49 +0900
+Processing by MicropostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.8ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:73
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.8ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1..2)):
+  
+app/controllers/microposts_controller.rb:74:in `set_micropost'
+Started GET "/microposts/1/edit" for 127.0.0.1 at 2020-11-22 01:49:23 +0900
+Processing by MicropostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.7ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:73
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.7ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1..2)):
+  
+app/controllers/microposts_controller.rb:74:in `set_micropost'
+Started GET "/" for 127.0.0.1 at 2020-11-22 01:52:11 +0900
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2020-11-22 01:52:15 +0900
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.8ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 411ms (Views: 366.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/microposts/2/edit" for 127.0.0.1 at 2020-11-22 01:52:18 +0900
+Processing by MicropostsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMicropost Load (0.9ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:73
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.9ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1..2)):
+  
+app/controllers/microposts_controller.rb:74:in `set_micropost'
+Started GET "/microposts" for 127.0.0.1 at 2020-11-22 01:52:22 +0900
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.8ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 422ms (Views: 374.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/microposts/2" for 127.0.0.1 at 2020-11-22 01:52:23 +0900
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMicropost Load (0.7ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:73
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.7ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1..2)):
+  
+app/controllers/microposts_controller.rb:74:in `set_micropost'
+Started GET "/microposts/2" for 127.0.0.1 at 2020-11-22 01:53:35 +0900
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMicropost Load (0.7ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:73
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.7ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1..2)):
+  
+app/controllers/microposts_controller.rb:74:in `set_micropost'
+Started GET "/microposts/2" for 127.0.0.1 at 2020-11-22 01:53:58 +0900
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMicropost Load (0.7ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:73
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.7ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1..2)):
+  
+app/controllers/microposts_controller.rb:74:in `set_micropost'
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT pg_try_advisory_lock(5994438243200751750)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.8ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_advisory_unlock(5994438243200751750)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Started GET "/" for 127.0.0.1 at 2020-11-22 01:55:41 +0900
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/nasudeng/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 16ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2020-11-22 01:55:47 +0900
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.9ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 1213ms (Views: 1149.5ms | ActiveRecord: 5.1ms)
+
+
+Started GET "/microposts/1" for 127.0.0.1 at 2020-11-22 01:55:50 +0900
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.6ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:67
+  Rendering microposts/show.html.erb within layouts/application
+  Rendered microposts/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 406ms (Views: 356.1ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2020-11-22 01:58:49 +0900
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (1.0ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 415ms (Views: 367.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/microposts/2" for 127.0.0.1 at 2020-11-22 01:59:06 +0900
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMicropost Load (0.8ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:67
+  Rendering microposts/show.html.erb within layouts/application
+  Rendered microposts/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 403ms (Views: 358.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2020-11-22 01:59:08 +0900
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.8ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 438ms (Views: 393.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/microposts/1" for 127.0.0.1 at 2020-11-22 01:59:09 +0900
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.7ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:67
+  Rendering microposts/show.html.erb within layouts/application
+  Rendered microposts/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 410ms (Views: 361.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2020-11-22 01:59:10 +0900
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.8ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 392ms (Views: 348.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2020-11-22 01:59:34 +0900
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/nasudeng/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.9ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 1149ms (Views: 1083.5ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/microposts/1" for 127.0.0.1 at 2020-11-22 01:59:36 +0900
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Integer into String):
+  
+app/controllers/microposts_controller.rb:67:in `+'
+app/controllers/microposts_controller.rb:67:in `set_micropost'
+Started GET "/microposts/1" for 127.0.0.1 at 2020-11-22 02:00:09 +0900
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Integer into String):
+  
+app/controllers/microposts_controller.rb:67:in `+'
+app/controllers/microposts_controller.rb:67:in `set_micropost'
+Started GET "/microposts/1" for 127.0.0.1 at 2020-11-22 02:00:22 +0900
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/nasudeng/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.7ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:67
+  Rendering microposts/show.html.erb within layouts/application
+  Rendered microposts/show.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 1150ms (Views: 1071.0ms | ActiveRecord: 6.2ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2020-11-22 02:02:43 +0900
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/nasudeng/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.9ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 1150ms (Views: 1085.0ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/microposts/1" for 127.0.0.1 at 2020-11-22 02:02:45 +0900
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.7ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:68
+  Rendering microposts/show.html.erb within layouts/application
+  Rendered microposts/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 436ms (Views: 350.7ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/microposts/1" for 127.0.0.1 at 2020-11-22 02:03:08 +0900
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.8ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:68
+  Rendering microposts/show.html.erb within layouts/application
+  Rendered microposts/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 404ms (Views: 356.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/microposts/1" for 127.0.0.1 at 2020-11-22 02:04:59 +0900
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/nasudeng/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.7ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:73
+  Rendering microposts/show.html.erb within layouts/application
+  Rendered microposts/show.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 1182ms (Views: 1070.6ms | ActiveRecord: 5.7ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2020-11-22 02:05:03 +0900
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.8ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 410ms (Views: 366.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/microposts/1" for 127.0.0.1 at 2020-11-22 02:05:04 +0900
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.8ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:73
+  Rendering microposts/show.html.erb within layouts/application
+  Rendered microposts/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 400ms (Views: 353.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2020-11-22 02:05:16 +0900
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.8ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 408ms (Views: 363.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/microposts/2" for 127.0.0.1 at 2020-11-22 02:05:17 +0900
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMicropost Load (0.8ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:73
+  Rendering microposts/show.html.erb within layouts/application
+  Rendered microposts/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 412ms (Views: 365.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2020-11-22 02:05:19 +0900
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.9ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 393ms (Views: 347.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/microposts/2/edit" for 127.0.0.1 at 2020-11-22 02:05:21 +0900
+Processing by MicropostsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMicropost Load (0.8ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:73
+  Rendering microposts/edit.html.erb within layouts/application
+  Rendered microposts/_form.html.erb (37.9ms)
+  Rendered microposts/edit.html.erb within layouts/application (81.7ms)
+Completed 200 OK in 489ms (Views: 442.8ms | ActiveRecord: 0.8ms)
+
+
+Started PATCH "/microposts/2" for 127.0.0.1 at 2020-11-22 02:05:25 +0900
+Processing by MicropostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DgGeI38VPJ+kTU9DwtpKVLgoFEHJ18zleyVs9KqiBdS2g9OChkzCuV0r+atvgTYoh/GDqsQ90KiJkGLOB9qvNw==", "micropost"=>{"content"=>"te_mp_2011212132_ca", "user_id"=>"2"}, "commit"=>"Update Micropost", "id"=>"2"}
+  [1m[36mMicropost Load (0.7ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:73
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/microposts_controller.rb:50
+  [1m[36mMicropost Update (0.8ms)[0m  [1m[33mUPDATE "microposts" SET "content" = $1, "updated_at" = $2 WHERE "microposts"."id" = $3[0m  [["content", "te_mp_2011212132_ca"], ["updated_at", "2020-11-21 17:05:25.935998"], ["id", 2]]
+  ↳ app/controllers/microposts_controller.rb:50
+  [1m[35m (4.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/microposts_controller.rb:50
+Redirected to http://localhost:3000/microposts/2
+Completed 302 Found in 11ms (ActiveRecord: 6.6ms)
+
+
+Started GET "/microposts/2" for 127.0.0.1 at 2020-11-22 02:05:25 +0900
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMicropost Load (0.7ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:73
+  Rendering microposts/show.html.erb within layouts/application
+  Rendered microposts/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 398ms (Views: 350.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2020-11-22 02:05:29 +0900
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.9ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 387ms (Views: 342.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/microposts/2" for 127.0.0.1 at 2020-11-22 02:05:31 +0900
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMicropost Load (0.7ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:73
+  Rendering microposts/show.html.erb within layouts/application
+  Rendered microposts/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 402ms (Views: 356.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/microposts/2" for 127.0.0.1 at 2020-11-22 02:05:33 +0900
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMicropost Load (0.8ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:73
+  Rendering microposts/show.html.erb within layouts/application
+  Rendered microposts/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 411ms (Views: 364.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2020-11-22 02:08:52 +0900
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/nasudeng/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (1.0ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 1138ms (Views: 1071.2ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/microposts/2" for 127.0.0.1 at 2020-11-22 02:08:56 +0900
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMicropost Load (0.7ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:77
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 1.4ms)
+
+
+  
+NoMethodError (undefined method `fetch' for nil:NilClass):
+  
+app/controllers/microposts_controller.rb:18:in `show'
+Started GET "/microposts/2" for 127.0.0.1 at 2020-11-22 02:09:39 +0900
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/nasudeng/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMicropost Load (0.7ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:77
+Completed 500 Internal Server Error in 57ms (ActiveRecord: 5.2ms)
+
+
+  
+NameError (uninitialized constant MicropostsController::False):
+  
+app/controllers/microposts_controller.rb:13:in `show'
+Started GET "/microposts/2" for 127.0.0.1 at 2020-11-22 02:10:05 +0900
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/nasudeng/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMicropost Load (0.7ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:74
+  Rendering microposts/show.html.erb within layouts/application
+  Rendered microposts/show.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 1171ms (Views: 1059.9ms | ActiveRecord: 5.1ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2020-11-22 02:10:08 +0900
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.9ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 395ms (Views: 350.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/microposts/2" for 127.0.0.1 at 2020-11-22 02:10:17 +0900
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMicropost Load (0.8ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/microposts_controller.rb:74
+  Rendering microposts/show.html.erb within layouts/application
+  Rendered microposts/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 399ms (Views: 351.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2020-11-22 02:10:19 +0900
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.9ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  ↳ app/views/microposts/index.html.erb:15
+  Rendered microposts/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 397ms (Views: 352.5ms | ActiveRecord: 0.9ms)
+
+
